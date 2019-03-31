@@ -1,6 +1,9 @@
 import RPi.GPIO as GPIO
 import time
 import threading
+# no display
+# wiring needs to be checked
+# main suspect is the IC 74HC595
 
 LSBFIRST =1
 MSBFIRST = 2
